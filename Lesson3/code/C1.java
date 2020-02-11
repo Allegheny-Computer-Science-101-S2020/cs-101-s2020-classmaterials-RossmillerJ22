@@ -1,10 +1,10 @@
 package P1;
 public class C1{
 	private int id;
-	protected void setID(int id){
+	public void setID(int id){
 		this.id = id;
 	}
-	protected int getID(){
+	public int getID(){
 		return this.id;
 	}
 }
